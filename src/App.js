@@ -1,24 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Landing from './components/Landing';
+import Header from './components/Header';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <div>
+        <Header />
+        <Switch>
+          <Route path="/about">
+            <Landing />
+          </Route>
+          <Route path='/resume' component={() => { 
+              window.location.href = process.env.PUBLIC_URL + "Resume.pdf"; 
+              return null;
+          }}/>
+          <Route path="/">
+            <Landing />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
     </div>
   );
 }
