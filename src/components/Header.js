@@ -1,9 +1,10 @@
 import React from 'react';
 import {
-    Link,
     useLocation
   } from "react-router-dom";
-  import Resume from './../Photos/Internship.pdf'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import { LinkContainer } from "react-router-bootstrap";
 
 function Header() {
     let location = useLocation();
@@ -12,23 +13,26 @@ function Header() {
         <div>
         {location.pathname!== "/" &&
         (
-        <nav>
-            <ul>
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <a href = {Resume} target = "_blank" rel="noopener noreferrer">Resume</a>
-            </li>
-            <li>
-                <a href = "https://www.linkedin.com/in/andy-plank" target = "_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href = "https://github.com/Aplank14" target = "_blank" rel="noopener noreferrer">GitHub</a>
-                <Link to="/about">About Me</Link>
-                <Link to="/projects">My Work</Link>
-                <Link to="/contact">Contact</Link>
-            </li>
-            </ul>
-        </nav>
+            <Navbar fluid collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <LinkContainer to="/">
+                    <Navbar.Brand>Home</Navbar.Brand>
+                </LinkContainer>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse>
+                    <Nav className="ml-auto">
+                        <LinkContainer to="/about">
+                            <Nav.Link>About</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/projects">
+                            <Nav.Link>My Work</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/contact">
+                            <Nav.Link>Contact</Nav.Link>
+                        </LinkContainer>
+                    </Nav>
+                </Navbar.Collapse>
+          </Navbar>
+            
         )}
         </div>
     );

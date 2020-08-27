@@ -14,10 +14,10 @@ function Landing() {
               <Link to="/about"><Button variant="outline-primary">About</Button></Link>
             </span>
             <span className="px-2">
-            <Link to="/about"><Button variant="outline-primary">Projects</Button></Link>
+            <Link to="/projects"><Button variant="outline-primary">Projects</Button></Link>
             </span>
             <span className="px-2">
-            <Link to="/about"><Button variant="outline-primary">Contact</Button></Link>
+            <Link to="/contact"><Button variant="outline-primary">Contact</Button></Link>
             </span>
         </div>
     </div>
