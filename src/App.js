@@ -8,6 +8,9 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Projects from './components/Projects';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -17,8 +20,14 @@ function App() {
         <div>
         <Header />
         <Switch>
+          <Route path="/projects">
+            <Projects />
+          </Route>
           <Route path="/about">
-            <Landing />
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path='/resume' component={() => { 
               window.location.href = process.env.PUBLIC_URL + "Resume.pdf"; 
