@@ -18,11 +18,14 @@ function Header() {
                 <Link to="/">Home</Link>
             </li>
             <li>
-                <a href = {Resume} target = "_blank">Download Pdf</a>
-                <Link to="/about">About</Link>
+                <a href = {Resume} target = "_blank" rel="noopener noreferrer">Resume</a>
             </li>
             <li>
-                <Link to="/users">Users</Link>
+                <a href = "https://www.linkedin.com/in/andy-plank" target = "_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href = "https://github.com/Aplank14" target = "_blank" rel="noopener noreferrer">GitHub</a>
+                <Link to="/about">About Me</Link>
+                <Link to="/projects">My Work</Link>
+                <Link to="/contact">Contact</Link>
             </li>
             </ul>
         </nav>
