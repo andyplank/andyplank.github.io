@@ -4,7 +4,7 @@ import Landing from './components/Landing';
 import Header from './components/Header';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
