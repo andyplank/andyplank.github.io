@@ -1,0 +1,13 @@
+.loader_bg {
+    position:fixed;
+    z-index: 999999;
+    background: #ffffff;
+    width: 100vw;
+    height: 100vh;
+}
+  
+.loader_bg.hide {
+    pointer-events:none;
+    transition: opacity 0.5s;
+    opacity: 0;
+}

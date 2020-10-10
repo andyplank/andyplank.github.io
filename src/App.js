@@ -11,11 +11,14 @@ import {
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
+import PreLoader from './components/PreLoader';
+
 
 function App() {
 
   return (
-    <div className="App">
+    <div>
+      <PreLoader />
       <Router>
         <div>
         <Header />
