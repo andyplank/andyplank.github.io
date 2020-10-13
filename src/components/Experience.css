@@ -1,12 +1,14 @@
 .click {
+    min-width: 100px;
     width: 100%;
     background-color: Transparent ;
     background-repeat: no-repeat;
     text-align: left !important;
-    border-left: 2px solid gray !important; 
-    border-bottom: none;
-    border-top: none;
-    border-right: none;
+    border-color: gray;
+    border-left: 2px solid !important; 
+    border-bottom: none !important;
+    border-top: none !important;
+    border-right: none !important;
     cursor: pointer;
     overflow: hidden;
     outline: none;
@@ -19,14 +21,14 @@
     box-shadow: none !important;
 }
 
- .click:hover {
-    border-left: 2px solid aqua !important; 
+.click:hover {
+    border-color: aqua !important;
     background-color: #547778 !important;
     color: aqua !important;
 }
 
 .selected {
-    border-left: aqua !important;
+    border-color: aqua !important;
     color: aqua !important;
 }
 
@@ -36,10 +38,61 @@
   }
   
   .header::after {
-    margin-top: 4px;
+    margin-top: 5px;
     content: '';
     flex: 1;
     margin-left: 1rem;
     height: 1px;
     background-color: #000;
   }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+    .click {
+        border-color: gray;
+        height: 100%;
+        border-bottom: 2px solid !important; 
+        border-left: none !important;
+    }
+    .buttonContainer {
+        display: flex;
+        overflow-x: auto;
+        width: 100%;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .buttonContainer::-webkit-scrollbar {
+        display: none;
+    }
+    .header{
+        justify-content: center !important;
+    }
+    .header::after {
+        margin-top: 0px;
+        content: '';
+        flex: 0;
+        margin-left: 0;
+        height: 0;
+        background-color: #000;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .test {
+        width: 800px !important;
+    }  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .test {
+        width: 1000px !important;
+    }  
+}

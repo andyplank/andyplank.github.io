@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import work from '../assets/data.json';
 
 import './Experience.css';
+import '../App.css';
 
 const Experience = () => {
   const [selected, setSelected] = useState(work[0]);
@@ -29,14 +30,16 @@ const Experience = () => {
   ));
 
   return (
-    <div id="experience" className="py-4 mx-4 px-4">
-      <Container>
-        <h2 className="mb-4 header">Work Experience</h2>
+    <div id="experience" className="break mx-2">
+      <Container fluid="md" className="test">
+        <h2 className="mb-4 w-100 header">Experience</h2>
         <Row>
-          <Col md={4} className="py-2">
-            {workList}
+          <Col md={4} lg={3} className="py-2">
+            <div className="buttonContainer">
+              {workList}
+            </div>
           </Col>
-          <Col md={8} className="py-2">
+          <Col md={8} lg={9} className="py-2">
             <h4>
               <span>{selected.company}</span>
               {' '}

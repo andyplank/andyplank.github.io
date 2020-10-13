@@ -4,7 +4,7 @@ import Landing from './components/Landing';
 import Header from './components/Header';
 
 import Projects from './components/Projects';
-import PreLoader from './components/Loader';
+import Loader from './components/Loader';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 import About from './components/About';
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className={loading ? 'hidden' : ''}>
-      <PreLoader loading={loading} />
+      <Loader loading={loading} />
       <Header />
       <Landing />
       <About />
