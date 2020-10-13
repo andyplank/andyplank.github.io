@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './PreLoader.css';
+import './Loader.css';
 
 // Don't need prop checking here
 // eslint-disable-next-line react/prop-types
