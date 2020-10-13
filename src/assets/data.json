@@ -3,7 +3,7 @@
         "id":5,
         "company":"Microsoft",
         "position":"Software Engineering Intern",
-        "dates":"May to July 2019",
+        "dates":"May to July 2021",
         "description":[
            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum felis id rhoncus rutrum.",
            "Vestibulum blandit aliquam urna non interdum.",
@@ -14,7 +14,7 @@
         "id":4,
         "company":"Purdue University",
         "position":"Graduate Teaching Assistant",
-        "dates":"May to July 2019",
+        "dates":"January 2021 to Present",
         "description":[
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum felis id rhoncus rutrum.",
             "Vestibulum blandit aliquam urna non interdum.",
@@ -25,7 +25,7 @@
         "id":3,
         "company":"Epic",
         "position":"Software Engineering Intern",
-        "dates":"May to July 2019",
+        "dates":"May to August 2020",
         "description":[
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum felis id rhoncus rutrum.",
             "Vestibulum blandit aliquam urna non interdum.",
@@ -36,7 +36,7 @@
         "id":2,
         "company":"Purdue University",
         "position":"Resident Assistant",
-        "dates":"May to July 2019",
+        "dates":"August 2019 to December 2020",
         "description":[
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum felis id rhoncus rutrum.",
             "Vestibulum blandit aliquam urna non interdum.",
