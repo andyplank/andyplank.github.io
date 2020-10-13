@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
 import './PreLoader.css';
 
-const PreLoader = () => {
-  const [loading, setLoading] = useState(true);
+// eslint-disable-next-line react/prop-types
+const PreLoader = ({ loading }) => {
   const [fading, setFading] = useState(true);
 
   setTimeout(() => {
     setFading(false);
   }, 1500);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 2500);
+  console.log(loading);
 
   return (
     <div className={loading ? 'loader_bg' : 'loader_bg hide'}>
