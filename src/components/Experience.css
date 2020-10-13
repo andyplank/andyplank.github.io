@@ -1,0 +1,45 @@
+.click {
+    width: 100%;
+    background-color: Transparent ;
+    background-repeat: no-repeat;
+    text-align: left !important;
+    border-left: 2px solid gray !important; 
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: inherit !important;
+    border-radius: 0 !important;
+}
+
+.click:focus,.click:active {
+    outline: none ;
+    box-shadow: none !important;
+}
+
+ .click:hover {
+    border-left: 2px solid aqua !important; 
+    background-color: #547778 !important;
+    color: aqua !important;
+}
+
+.selected {
+    border-left: aqua !important;
+    color: aqua !important;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header::after {
+    margin-top: 4px;
+    content: '';
+    flex: 1;
+    margin-left: 1rem;
+    height: 1px;
+    background-color: #000;
+  }
