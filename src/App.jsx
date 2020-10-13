@@ -6,6 +6,8 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import PreLoader from './components/PreLoader';
 import Footer from './components/Footer';
+import Experience from './components/Experience';
+import About from './components/About';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -19,6 +21,8 @@ function App() {
       <PreLoader loading={loading} />
       <Header />
       <Landing />
+      <About />
+      <Experience />
       <Projects />
       <Footer />
     </div>

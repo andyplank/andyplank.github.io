@@ -4,7 +4,7 @@ import Header from './Header';
 
 function Landing() {
   return (
-    <div className="LandingImage">
+    <div id="#" className="LandingImage">
       <Header />
     </div>
   );
