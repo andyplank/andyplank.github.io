@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 import Landing from './components/Landing';
-import Header from './components/Header';
 
 import Projects from './components/Projects';
 import Loader from './components/Loader';
@@ -19,7 +18,6 @@ function App() {
   return (
     <div className={loading ? 'hidden' : ''}>
       <Loader loading={loading} />
-      <Header />
       <Landing />
       <About />
       <Experience />
