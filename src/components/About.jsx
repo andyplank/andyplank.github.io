@@ -33,12 +33,16 @@ const About = () => {
               <h2>About me</h2>
               <div className="subtitle pb-1">Software Engineer, Purdue Alumn, Woodworker</div>
               <p>
-                I am a graduate student at Purdue University where I am earning a Master's Degree in Computer Science.
-                I've always loved computers, so I am lucky to be in a field where I can build software for them.
+                I am a graduate student at Purdue University where I am earning a
+                Master&apos;s Degree in Computer Science.
+                I&apos;ve always loved computers, so I am lucky to be in a
+                field where I can build software for them.
                 Outside of work, I like to building things.
                 I have been an avid woodworker since I was 13 and made a
-                Christmas tree in woodshop. If you are interested in that sort of thing, check out my projects down below.
-                I also love staying active whether that is by playing tennis, golf, or just working out.
+                Christmas tree in woodshop. If you are interested in
+                that sort of thing, check out my projects down below.
+                I also love staying active whether that is by playing
+                tennis, golf, or just working out.
               </p>
             </div>
           </Col>
