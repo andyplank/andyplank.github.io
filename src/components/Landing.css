@@ -1,19 +1,20 @@
 .LandingImage {
-    display: flex;
-    background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .2)), url("./../assets/landing.jpg");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+    url("./../assets/ProfilePictures/landing.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .LandingText {
-	text-align: center;
-	color: white;
-  }
+  text-align: center;
+  color: white;
+}
 
 /* Position the navbar container inside the image */
 .HeaderContainer {

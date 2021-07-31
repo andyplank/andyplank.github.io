@@ -14,7 +14,7 @@ function App() {
 
   setTimeout(() => {
     setLoading(false);
-  }, 100);
+  }, 2500);
 
   return (
     <div className={loading ? 'hidden' : ''}>

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { useMediaQuery } from 'react-responsive';
 
 import work from '../assets/data.json';
 
@@ -11,7 +10,6 @@ import '../App.css';
 
 const Experience = () => {
   const [selected, setSelected] = useState(work[0]);
-  const isMobile = useMediaQuery({ query: '(max-width: 753px)' });
 
   const workList = work.map((elm) => {
     const className = elm.id === selected.id ? 'selected' : '';

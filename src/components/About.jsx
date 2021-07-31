@@ -20,7 +20,7 @@ const PictureRow = pics.map((e) => (
 const About = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1224px)' });
   return (
-    <div id="about" className="break my-2">
+    <div id="about" className="break">
       <Container>
         <Row className="justify-content-center">
           <Col md={3} className="p-0">
