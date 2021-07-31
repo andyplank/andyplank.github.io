@@ -7,13 +7,14 @@ import Loader from './components/Loader';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   const [loading, setLoading] = useState(true);
 
   setTimeout(() => {
     setLoading(false);
-  }, 2500);
+  }, 100);
 
   return (
     <div className={loading ? 'hidden' : ''}>
@@ -22,6 +23,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

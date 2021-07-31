@@ -3,12 +3,12 @@ import { useMediaQuery } from 'react-responsive';
 import {
   Container, Row, Col, Image,
 } from 'react-bootstrap';
-import Profile from '../assets/profile.jpg';
-import Profile1 from '../assets/1.jpg';
-import Profile2 from '../assets/2.jpg';
-import Profile3 from '../assets/3.jpg';
-import Profile4 from '../assets/4.jpg';
-import Profile5 from '../assets/5.jpg';
+import Profile from '../assets/ProfilePictures/profile.jpg';
+import Profile1 from '../assets/ProfilePictures/1.jpg';
+import Profile2 from '../assets/ProfilePictures/2.jpg';
+import Profile3 from '../assets/ProfilePictures/3.jpg';
+import Profile4 from '../assets/ProfilePictures/4.jpg';
+import Profile5 from '../assets/ProfilePictures/5.jpg';
 
 const pics = [Profile1, Profile2, Profile3, Profile4, Profile5];
 const PictureRow = pics.map((e) => (
@@ -20,7 +20,7 @@ const PictureRow = pics.map((e) => (
 const About = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1224px)' });
   return (
-    <div id="about" className="break">
+    <div id="about" className="break my-2">
       <Container>
         <Row className="justify-content-center">
           <Col md={3} className="p-0">
@@ -31,16 +31,14 @@ const About = () => {
           <Col md={7} className="d-flex align-items-center p-0">
             <div className="pl-4 pt-4">
               <h2>About me</h2>
-              <div className="subtitle pb-1">Software Engineer, Purdue Alumn, doer of things</div>
+              <div className="subtitle pb-1">Software Engineer, Purdue Alumn, Woodworker</div>
               <p>
-                The only thing I love more than making software is software that works.
-                Besides building software,
-                I also enjoy building things.
-                I have been an avid woodworker since I was 12 and made a
-                Christmas tree in woodshop: see
-                {' '}
-                <u>projects</u>
-                . I also enjoy doing anything outside.
+                I am a graduate student at Purdue University where I am earning a Master's Degree in Computer Science.
+                I've always loved computers, so I am lucky to be in a field where I can build software for them.
+                Outside of work, I like to building things.
+                I have been an avid woodworker since I was 13 and made a
+                Christmas tree in woodshop. If you are interested in that sort of thing, check out my projects down below.
+                I also love staying active whether that is by playing tennis, golf, or just working out.
               </p>
             </div>
           </Col>

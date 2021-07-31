@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Footer = () => (
-  <div className="w-100 break pb-2 d-flex justify-content-center">
-    <p>Designed & built by Andy Plank</p>
+  <div className="text-center bg-light pb-1">
+    Designed & built by Andy Plank
   </div>
 );
 

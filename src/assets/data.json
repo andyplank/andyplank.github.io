@@ -5,9 +5,10 @@
         "position":"Software Engineering Intern",
         "dates":"May to July 2021",
         "description":[
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum felis id rhoncus rutrum.",
-           "Vestibulum blandit aliquam urna non interdum.",
-           "Donec elementum eros sit amet scelerisque venenatis."
+            "Created a PowerBI report for the Azure Server Performance team that provides daily live migration performance impact statistics.",
+            "Decreased average Power Automate flow completion time from 11 minutes 55 seconds to 1 minute 46 seconds by improving Kusto query efficiency.",
+            "Wrote new Kusto queries that cook Cirrus VM and Hyper-V host performance data by live migration phase.",
+            "Gathered requirements from stakeholders and drove the design process to fulfill customer needs."            
         ]
     },
     {
@@ -16,9 +17,9 @@
         "position":"Graduate Teaching Assistant",
         "dates":"January 2021 to Present",
         "description":[
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum felis id rhoncus rutrum.",
-            "Vestibulum blandit aliquam urna non interdum.",
-            "Donec elementum eros sit amet scelerisque venenatis."
+            "Ensured student understanding of course material through daily office hours.",
+            "Graded course work within a week so students could reliably track their progress in the course.",
+            "Assisted in reviewing homework and writing answer keys so the students had quality assignments."
         ]
     },
     {
@@ -27,9 +28,9 @@
         "position":"Software Engineering Intern",
         "dates":"May to August 2020",
         "description":[
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum felis id rhoncus rutrum.",
-            "Vestibulum blandit aliquam urna non interdum.",
-            "Donec elementum eros sit amet scelerisque venenatis."
+            "Proposed a new method of growth chart graphing to allow physicians to easily identify abnormalities in babies.",
+            "Designed and conducted a feature usability study including both national and international customers.",
+            "Refactored a graphing module using C# and React to reduce cyclomatic complexity by 88%.\n\n"
         ]
     },
     {
@@ -38,9 +39,9 @@
         "position":"Resident Assistant",
         "dates":"August 2019 to December 2020",
         "description":[
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum felis id rhoncus rutrum.",
-            "Vestibulum blandit aliquam urna non interdum.",
-            "Donec elementum eros sit amet scelerisque venenatis."
+            "Promoted an inclusive community on the floor by planning and hosting weekly events for 50 residents.",
+            "Mediated conflicts between roommates to provide resolution in a timely manner.",
+            "Interviewed potential Resident Assistant candidates for the following school year."
         ]
     },
     {
@@ -49,9 +50,10 @@
         "position":"Software Engineering Intern",
         "dates":"May to July 2019",
         "description":[
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum felis id rhoncus rutrum.",
-            "Vestibulum blandit aliquam urna non interdum.",
-            "Donec elementum eros sit amet scelerisque venenatis."
+            "Designed a web application with Angular to manage and track the intake of new tech ideas at Quicken Loans.",
+            "Enabled application hosting by configuring infrastructure on AWS, including S3s, Lambdas, and API Gateways.",
+            "Contributed to a feature that reduced the processing time of escrow deletion from 60 days to 8 days.",
+            "Gained experience in SAFe practices through daily standups, release planning, retrospectives, and design sessions."
         ]
     }
 ]

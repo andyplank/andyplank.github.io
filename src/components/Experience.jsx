@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { useMediaQuery } from 'react-responsive';
 
 import work from '../assets/data.json';
 
@@ -10,6 +11,7 @@ import '../App.css';
 
 const Experience = () => {
   const [selected, setSelected] = useState(work[0]);
+  const isMobile = useMediaQuery({ query: '(max-width: 753px)' });
 
   const workList = work.map((elm) => {
     const className = elm.id === selected.id ? 'selected' : '';
@@ -30,8 +32,8 @@ const Experience = () => {
   ));
 
   return (
-    <div id="experience" className="break mx-2">
-      <Container fluid="md" className="test">
+    <div id="experience" className="break bg-light">
+      <Container fluid="md">
         <h2 className="mb-4 w-100 header">Experience</h2>
         <Row>
           <Col md={4} lg={3} className="py-2">
@@ -39,7 +41,7 @@ const Experience = () => {
               {workList}
             </div>
           </Col>
-          <Col md={8} lg={9} className="py-2">
+          <Col md={8} lg={9} className="py-2 min-height">
             <h4>
               <span>{selected.company}</span>
               {' '}
