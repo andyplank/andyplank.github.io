@@ -29,7 +29,7 @@ const About = () => {
             </div>
           </Col>
           <Col md={7} className="d-flex align-items-center p-0">
-            <div className="pl-4 pt-4">
+            <div className="px-4 pt-4">
               <h2>About me</h2>
               <div className="subtitle pb-1">Software Engineer, Purdue Alumn, Woodworker</div>
               <p>
@@ -48,12 +48,12 @@ const About = () => {
           </Col>
         </Row>
         {!isMobile
-        && (
-        <Row className="justify-content-center">
-          {PictureRow}
-        </Row>
-        )
-      }
+          && (
+            <Row className="justify-content-center">
+              {PictureRow}
+            </Row>
+          )
+        }
 
       </Container>
     </div>
