@@ -37,7 +37,7 @@ const About = () => {
                 Master&apos;s Degree in Computer Science.
                 I&apos;ve always loved computers, so I am lucky to be in a
                 field where I can build software for them.
-                Outside of work, I like to building things.
+                Outside of work, I like building things.
                 I have been an avid woodworker since I was 13 and made a
                 Christmas tree in woodshop. If you are interested in
                 that sort of thing, check out my projects down below.
