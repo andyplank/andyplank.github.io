@@ -11,7 +11,9 @@ This will download all of the required node modules.
 Then run `npm start`.
 This will run the app in development mode at [http://localhost:3000](http://localhost:3000).
 
-Feel free to use this site as a template for your own personal website!
+### License
+
+Feel free to use this site as a template for your own personal website, just don't forget to credit me!
 
 MIT License
 
