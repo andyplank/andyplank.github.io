@@ -1,6 +1,29 @@
 [
     {
+        "id":6,
+        "company":"Microsoft",
+        "position":"Software Engineer",
+        "dates":"August 2022 to Present",
+        "description":[
+            "Researched under-performing areas of Azure server using tools like FIO, logman, perfmon, and flame graphs.",
+            "Proved that the use of a different memory allocator would reduce CPU usage by 57% for local storage workloads.",
+            "Identified lock contention issues that increased local storage throughput by 3.2 times.",
+            "Placed 3rd of 34 teams in a company sponsored Hack the Box CTF event."
+        ]
+    },
+    {
         "id":5,
+        "company":"Purdue University",
+        "position":"Graduate Teaching Assistant",
+        "dates":"January 2021 to May 2022",
+        "description":[
+            "Lectured 200 students on computer architecture during the professor's absence.",
+            "Taught two lab sections of 24 students every week on course concepts such as ARM assembly and building circuits.",
+            "Coordinated all computer architecture GTAs on course issues like covid related absences and grading."
+        ]
+    },
+    {
+        "id":4,
         "company":"Microsoft",
         "position":"Software Engineering Intern",
         "dates":"May to July 2021",
@@ -11,17 +34,7 @@
             "Gathered requirements from stakeholders and drove the design process to fulfill customer needs."            
         ]
     },
-    {
-        "id":4,
-        "company":"Purdue University",
-        "position":"Graduate Teaching Assistant",
-        "dates":"January 2021 to Present",
-        "description":[
-            "Ensured student understanding of course material through daily office hours.",
-            "Graded course work within a week so students could reliably track their progress in the course.",
-            "Assisted in reviewing homework and writing answer keys so the students had quality assignments."
-        ]
-    },
+
     {
         "id":3,
         "company":"Epic",

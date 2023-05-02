@@ -7,7 +7,6 @@ import CardColumns from 'react-bootstrap/CardColumns';
 import Wine from '../assets/Woodworking/Wine.jpeg';
 import Pens from '../assets/Woodworking/Pens.jpeg';
 import Flower from '../assets/Woodworking/Flower.jpeg';
-import Tree from '../assets/Woodworking/Tree.jpeg';
 import Frame from '../assets/Woodworking/Frame.jpeg';
 import Ladder from '../assets/Woodworking/Ladder.JPG';
 import Shoes from '../assets/Woodworking/Shoes.jpg';
@@ -25,7 +24,6 @@ const Projects = () => {
     { desc: 'Barnwood Wine Holder', pic: Wine },
     { desc: 'CNC Router Cut Purdue Sign', pic: Purdue },
     { desc: 'Rustic Blanket Ladder', pic: Ladder },
-    // { desc: 'Merry Christmas Lawn Decoration', pic: Tree },
     { desc: 'Wooden Bath Tray', pic: Tray },
     { desc: 'Iron Pipe Shoe Rack', pic: Shoes },
     { desc: 'Wooden Card Holder', pic: Frame },
