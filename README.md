@@ -1,38 +1,20 @@
 ## Andy Plank's Personal Website
 A React based portfiolio site hosted on GitHub pages.
 
-### Installation
+### Prerequisites
 
 To run this app you will need node.js and npm.
 
-Once cloned, run `npm i`.
-This will download all of the required node modules.
+### Dependencies
 
-Then run `npm start`.
-This will run the app in development mode at [http://localhost:3000](http://localhost:3000).
+Download dependencies with
+```
+npm i
+```
 
-### License
+### Run
 
-Feel free to use this site as a template for your own personal website, just don't forget to credit me!
-
-MIT License
-
-Copyright (c) [2021] [Andrew Plank]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Run the app in development mode at [http://localhost:3000](http://localhost:3000) using the following.
+```
+npm start
+```
