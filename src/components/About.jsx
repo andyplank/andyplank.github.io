@@ -1,64 +1,43 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
-import {
-  Container, Row, Col, Image,
-} from 'react-bootstrap';
-import Profile from '../assets/ProfilePictures/profile.jpg';
-import Profile1 from '../assets/ProfilePictures/1.jpg';
-import Profile2 from '../assets/ProfilePictures/2.jpg';
-import Profile3 from '../assets/ProfilePictures/3.jpg';
-import Profile4 from '../assets/ProfilePictures/4.jpg';
-import Profile5 from '../assets/ProfilePictures/5.jpg';
 
-const pics = [Profile1, Profile2, Profile3, Profile4, Profile5];
+const pics = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
 const PictureRow = pics.map((e) => (
-  <Col md={2} className="mt-3 border-top border-4 p-0">
-    <Image className="px-2  pt-2" src={e} fluid />
-  </Col>
+  <img key={e} alt={`andy-${e}`} src={`/pictures/${e}`} />
 ));
 
-const About = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 1224px)' });
-  return (
-    <div id="about" className="break">
-      <Container>
-        <Row className="justify-content-center">
-          <Col md={3} className="p-0">
-            <div className="px-3 px-md-0">
-              <Image src={Profile} fluid rounded={!isMobile} />
-            </div>
-          </Col>
-          <Col md={7} className="d-flex align-items-center p-0">
-            <div className="px-4 pt-4">
-              <h2>About me</h2>
-              <div className="subtitle pb-1">Software Engineer, Purdue Alumn, Woodworker</div>
-              <p>
-                I am a graduate student at Purdue University where I am earning a
-                Master&apos;s Degree in Computer Science.
-                I&apos;ve always loved computers, so I am lucky to be in a
-                field where I can build software for them.
-                Outside of work, I like building things.
-                I have been an avid woodworker since I was 13 and made a
-                Christmas tree in woodshop. If you are interested in
-                that sort of thing, check out my projects down below.
-                I also love staying active whether that is by playing
-                tennis, golf, or just working out.
-              </p>
-            </div>
-          </Col>
-        </Row>
-        {!isMobile
-          && (
-            <Row className="justify-content-center">
-              {PictureRow}
-            </Row>
-          )
-        }
-
-      </Container>
+const About = () => (
+  <div id="about" className="break container">
+    <div className="grid grid-cols-12">
+      <div className="col-span-12 md:col-span-5 lg:col-span-3">
+        <div className="">
+          <img alt="andyplank-profile" src="/pictures/profile.jpg" className="px-4 md:px-0 object-cover rounded-md" />
+        </div>
+      </div>
+      <div className="col-span-12 md:col-span-7 lg:col-span-9">
+        <div className="p-4">
+          <h2>About me</h2>
+          <div className="text-3xl pb-1">Software Engineer, Purdue Alumn, Woodworker</div>
+          <p>
+            Currently, I am a Software Engineer at Microsoft where I work on improving
+            Azure Service Performance.
+            Typically, this involves finding bottlenecks in Windows Server and resolving them.
+            Before work, I graduated from Purdue University with a Master&apos;s Degree
+            in Computer Science.
+            Outside of work, I enjoy small projects like building electronics, websites,
+            and woodcraft.
+            I have been an avid woodworker since I was 13 and made a Christmas tree in woodshop.
+            If you are interested in that sort of thing, check out my projects down below.
+            I also like staying active playing tennis, golf, or just working out.
+          </p>
+        </div>
+      </div>
     </div>
-
-  );
-};
+    <div className="hidden md:block">
+      <div className="grid grid-cols-5 gap-5 mt-2 pt-2 border-t-2 px-2 mt-3">
+        {PictureRow}
+      </div>
+    </div>
+  </div>
+);
 
 export default About;
