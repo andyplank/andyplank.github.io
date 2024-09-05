@@ -26,7 +26,7 @@ const About = () => {
         <Row className="justify-content-center">
           <Col md={3} className="p-0">
             <div className="px-3 px-md-0">
-              <Image src={Profile} fluid rounded={!isMobile} />
+              <Image src={Profile} fluid rounded={!isMobile} alt="andy profile picture" />
             </div>
           </Col>
           <Col md={7} className="d-flex align-items-center p-0">
