@@ -23,16 +23,16 @@ const Projects = () => {
     { desc: 'Hand Turned Wooden and Acryllic Pens', pic: Pens },
     { desc: 'Iron Pipe Shoe Rack', pic: Shoes },
     { desc: 'Barnwood Wine Holder', pic: Wine },
-    { desc: 'Satorou Gojo cutout', pic: Gojo },
+    { desc: 'Satorou Gojo Cutout', pic: Gojo },
     { desc: 'Harry Potter Wand Holder', pic: Wand },
     { desc: 'CNC Router Cut Purdue Sign', pic: Purdue },
     { desc: 'Rustic Blanket Ladder', pic: Ladder },
-    { desc: 'Steel cutout of Jinx', pic: Jinx },
+    { desc: 'Steel Cutout of Jinx', pic: Jinx },
     { desc: 'Wooden Bath Tray', pic: Tray },
     { desc: 'Wooden Card Holder', pic: Frame },
     { desc: 'Barnwood Key Holder', pic: Keys },
-    { desc: 'Witcher 3 signs', pic: Signs },
-    { desc: 'Steel cutout of Venom', pic: Venom },
+    { desc: 'Witcher 3 Signs', pic: Signs },
+    { desc: 'Steel Cutout of Venom', pic: Venom },
   ];
 
   return (
