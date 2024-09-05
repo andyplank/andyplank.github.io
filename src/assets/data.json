@@ -1,40 +1,28 @@
 [
     {
-        "id":6,
+        "id":5,
         "company":"Microsoft",
-        "position":"Software Engineer",
+        "position":"Software Engineer II",
         "dates":"August 2022 to Present",
         "description":[
-            "Researched under-performing areas of Azure server using tools like FIO, logman, perfmon, and flame graphs.",
+            "Researched under-performing areas of Azure server using tools like ETW and flame graphs.",
             "Proved that the use of a different memory allocator would reduce CPU usage by 57% for local storage workloads.",
-            "Identified lock contention issues that increased local storage throughput by 3.2 times.",
+            "Identified and fixed a bottleneck in local storage workloads that increased throughput by 68%.",
             "Placed 3rd of 34 teams in a company sponsored Hack the Box CTF event."
         ]
     },
     {
-        "id":5,
+        "id":4,
         "company":"Purdue University",
-        "position":"Graduate Teaching Assistant",
+        "position":"Head Graduate Teaching Assistant",
         "dates":"January 2021 to May 2022",
         "description":[
+            "Recipient of the 2022 “Graduate Teaching Assistant of the Year” award from the ACM student chapter.",
             "Lectured 200 students on computer architecture during the professor's absence.",
             "Taught two lab sections of 24 students every week on course concepts such as ARM assembly and building circuits.",
             "Coordinated all computer architecture GTAs on course issues like covid related absences and grading."
         ]
     },
-    {
-        "id":4,
-        "company":"Microsoft",
-        "position":"Software Engineering Intern",
-        "dates":"May to July 2021",
-        "description":[
-            "Created a PowerBI report for the Azure Server Performance team that provides daily live migration performance impact statistics.",
-            "Decreased average Power Automate flow completion time from 11 minutes 55 seconds to 1 minute 46 seconds by improving Kusto query efficiency.",
-            "Wrote new Kusto queries that cook Cirrus VM and Hyper-V host performance data by live migration phase.",
-            "Gathered requirements from stakeholders and drove the design process to fulfill customer needs."            
-        ]
-    },
-
     {
         "id":3,
         "company":"Epic",
