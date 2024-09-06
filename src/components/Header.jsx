@@ -7,7 +7,7 @@ function Header() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" variant="dark" className="navBar">
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav>
             <Nav.Link active={false} href="#about">About</Nav.Link>
