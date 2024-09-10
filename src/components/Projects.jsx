@@ -43,7 +43,7 @@ const Projects = () => {
           <p>
             Over the years, I have been able to work on a lot of different woodworking projects.
             Although, a lot of them ended up looking like like&nbsp;
-            <a target="_blank" rel="noopener noreferrer" href="/pictures/Plank.webp">plank</a>
+            <a target="_blank" rel="noopener noreferrer" href="/Plank.jpg">plank</a>
             , some of them turned out really well.
             Below is a collection of my favorite projects.
           </p>
