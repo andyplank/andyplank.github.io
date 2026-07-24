@@ -1,20 +1,41 @@
-## Andy Plank's Personal Website
-A React based portfiolio site hosted on GitHub pages.
+# andyplank.me — Personal Portfolio
 
-### Prerequisites
+A personal portfolio site built with **React + TypeScript + Vite + Tailwind CSS v4**.
 
-To run this app you will need node.js and npm.
+## Highlights
 
-### Dependencies
+- **Smooth image loading** — the reusable `FadeInImage` component fades each image in
+  once it has fully loaded, avoiding jittery pop-in.
+- **Hero + consistent sections** — a full-viewport hero image with a shared `Section`
+  wrapper giving every section the same vertical rhythm.
+- **Responsive project cards** — 3 columns on desktop, single column on mobile.
 
-Download dependencies with
+## Getting started
+
+```bash
+npm install
+npm run dev        # start the dev server (http://localhost:5173)
 ```
-npm i
+
+## Build & deploy
+
+```bash
+npm run build      # type-check + production build into dist/
+npm run preview    # preview the production build locally
+npm run deploy     # publish dist/ to GitHub Pages (gh-pages)
 ```
 
-### Run
+The site deploys to the custom domain `andyplank.me` via `public/CNAME`.
 
-Run the app in development mode at [http://localhost:3000](http://localhost:3000) using the following.
+## Structure
+
 ```
-npm start
+src/
+  components/   FadeInImage, Navbar, Hero, Section, About, Experience, Projects, Contact, Footer
+  data/         experience.ts, projects.ts (typed content)
+  assets/       images and icons
+  types.ts      shared interfaces
+  App.tsx       composes the page sections
+  main.tsx      entry point
+  index.css     Tailwind import + theme tokens
 ```
