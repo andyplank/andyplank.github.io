@@ -2,14 +2,6 @@
 
 A personal portfolio site built with **React + TypeScript + Vite + Tailwind CSS v4**.
 
-## Highlights
-
-- **Smooth image loading** — the reusable `FadeInImage` component fades each image in
-  once it has fully loaded, avoiding jittery pop-in.
-- **Hero + consistent sections** — a full-viewport hero image with a shared `Section`
-  wrapper giving every section the same vertical rhythm.
-- **Responsive project cards** — 3 columns on desktop, single column on mobile.
-
 ## Getting started
 
 ```bash
