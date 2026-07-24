@@ -1,4 +1,4 @@
-# andyplank.me — Personal Portfolio
+# Personal Portfolio
 
 A personal portfolio site built with **React + TypeScript + Vite + Tailwind CSS v4**.
 
@@ -14,10 +14,9 @@ npm run dev        # start the dev server (http://localhost:5173)
 ```bash
 npm run build      # type-check + production build into dist/
 npm run preview    # preview the production build locally
-npm run deploy     # publish dist/ to GitHub Pages (gh-pages)
 ```
 
-The site deploys to the custom domain `andyplank.me` via `public/CNAME`.
+The site deploys to the custom domain via `public/CNAME`.
 
 ## Structure
 
